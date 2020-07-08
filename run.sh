@@ -1,3 +1,3 @@
 #!/bin/bash
 
-exec "@"
+/usr/local/bin/delegate "@"
