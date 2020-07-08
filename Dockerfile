@@ -9,4 +9,4 @@ RUN wget https://its-more.jp/delegate/ftp/pub/DeleGate/bin/linux/latest/linux2.6
     
 COPY run.sh /usr/local/bin/run.sh
 
-ENTRYPOINT ["/bin/bash", "/usr/local/bin/run.sh"]
+CMD ["/bin/bash", "/usr/local/bin/run.sh"]
